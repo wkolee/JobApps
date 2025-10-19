@@ -1,0 +1,30 @@
+# Put up to 500+ companies here. You can list just a name, or specify provider+handle.
+# provider: greenhouse|lever  (leave blank to auto-detect common handles)
+enterprise:
+  - { name: "Amazon", provider: greenhouse, handle: "amazon" }
+  - { name: "Accenture", provider: greenhouse, handle: "accenture" }
+  - { name: "Datadog", provider: greenhouse, handle: "datadog" }
+  - { name: "Cloudflare", provider: greenhouse, handle: "cloudflare" }
+  - { name: "ServiceNow" }
+  - { name: "NVIDIA" }
+  - { name: "Microsoft" }
+
+midmarket:
+  - { name: "Airtable", provider: greenhouse, handle: "airtable" }
+  - { name: "MongoDB", provider: greenhouse, handle: "mongodb" }
+  - { name: "Confluent", provider: greenhouse, handle: "confluent" }
+  - { name: "Okta", provider: greenhouse, handle: "okta" }
+  - { name: "PagerDuty" }
+  - { name: "Fastly" }
+
+startup:
+  - { name: "OpenAI", provider: greenhouse, handle: "openai" }
+  - { name: "Anthropic", provider: greenhouse, handle: "anthropic" }
+  - { name: "Vercel", provider: greenhouse, handle: "vercel" }
+  - { name: "Rippling", provider: greenhouse, handle: "rippling" }
+  - { name: "Notion", provider: greenhouse, handle: "notion" }
+  - { name: "Figma", provider: greenhouse, handle: "figma" }
+  - { name: "Plaid", provider: greenhouse, handle: "plaid" }
+  - { name: "Stripe", provider: greenhouse, handle: "stripe" }
+
+# You can also keep a CSV and import later; see notes in README after we patch main.py
